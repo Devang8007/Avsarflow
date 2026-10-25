@@ -1,6 +1,6 @@
 import React from 'react';
 import { JobStatus } from '../../types';
-import { Clock, CheckCircle2, AlertTriangle, XCircle, HelpCircle, AlertOctagon } from 'lucide-react';
+import { Clock, CheckCircle2, XCircle, HelpCircle, AlertOctagon } from 'lucide-react';
 
 interface Props {
   status: JobStatus;

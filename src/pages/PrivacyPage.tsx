@@ -1,5 +1,4 @@
 import React from 'react';
-import { ShieldCheck, Lock, EyeOff, UserCheck } from 'lucide-react';
 
 export const PrivacyPage: React.FC = () => {
   return (

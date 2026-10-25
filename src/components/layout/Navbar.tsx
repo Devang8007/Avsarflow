@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Landmark, Building2, GraduationCap, Sparkles, Bell, Shield, Menu, X, ArrowUpRight, Flame } from 'lucide-react';
+import { Landmark, Building2, GraduationCap, Sparkles, Bell, Shield, Menu, X, Flame } from 'lucide-react';
 import { NewsletterModal } from '../common/NewsletterModal';
 
 export const Navbar: React.FC = () => {

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { sourceService } from '../../services/sourceService';
-import { Source, SourceDiscoveryResult, SourceTestPreviewItem, CollectionRun } from '../../types';
+import { Source, SourceDiscoveryResult, SourceTestPreviewItem } from '../../types';
 import {
   Globe, Plus, Play, Pause, Trash2, Edit3, CheckCircle2,
-  AlertTriangle, RefreshCw, ExternalLink, Search, ShieldCheck,
-  FileText, Clock, AlertCircle, ChevronDown, ChevronUp, X, Sparkles
+  RefreshCw, ExternalLink, Search, ShieldCheck,
+  FileText, AlertCircle, ChevronDown, ChevronUp, X, Sparkles
 } from 'lucide-react';
 
 export const SourceManager: React.FC = () => {

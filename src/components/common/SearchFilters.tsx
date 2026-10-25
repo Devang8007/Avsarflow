@@ -1,6 +1,6 @@
 import React from 'react';
 import { JobCategory } from '../../types';
-import { Search, Filter, X, ArrowUpDown } from 'lucide-react';
+import { Search, X, ArrowUpDown } from 'lucide-react';
 
 interface Props {
   searchQuery: string;

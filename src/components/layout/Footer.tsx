@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, Heart, ExternalLink, RefreshCw, CheckCircle2 } from 'lucide-react';
+import { ShieldCheck, ExternalLink, CheckCircle2 } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
